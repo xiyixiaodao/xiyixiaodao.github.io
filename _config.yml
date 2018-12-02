@@ -7,7 +7,7 @@
 
 # Site settings
 title: xiyi
-brief-intro: Front-end Dev Engineer
+brief-intro: 道虽迩，不行不至！
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xiyixiaodao.github.io" # the base hostname & protocol for your site
 
