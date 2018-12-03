@@ -1,6 +1,8 @@
-# 关于这个博客的主题
+# 这是我的博客
+***查看我的博客主页，请[点击](https://xiyixiaodao.github.io/)***
 
-**查看我的博客主页，请[点击](https://xiyixiaodao.github.io/)**
+
+## 关于这个博客的主题
 
 本主题主要参考来源为[HyG](https://github.com/Gaohaoyang/gaohaoyang.github.io.git)，感谢博主。
 
