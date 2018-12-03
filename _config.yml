@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: xiyi
+title: xiyixiaodao
 brief-intro: 道虽迩，不行不至！
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xiyixiaodao.github.io" # the base hostname & protocol for your site
@@ -16,7 +16,7 @@ permalink: /:year/:month/:day/:title/
 # other links
 twitter_username: 
 facebook_username: 
-github_username:  
+github_username:  xiyixiaodao
 email: 
 weibo_username: 
 zhihu_username: 
