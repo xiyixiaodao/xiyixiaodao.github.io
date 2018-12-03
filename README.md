@@ -1,7 +1,6 @@
 # 关于这个简洁明快的博客主题 🤘🤘🤘
 
-本主题主要参考来源为![HyG](https://github.com/Gaohaoyang/gaohaoyang.github.io.git)
-感谢博主。
+本主题主要参考来源为![HyG](https://github.com/Gaohaoyang/gaohaoyang.github.io.git)，感谢博主。
 
 ## 目录
 
