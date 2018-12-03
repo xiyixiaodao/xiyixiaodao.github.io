@@ -1,5 +1,5 @@
 # 这是我的博客
-***查看我的博客主页，请[点击](https://xiyixiaodao.github.io/)***
+**查看我的博客主页，请[点击](https://xiyixiaodao.github.io/)**
 
 
 ## 关于这个博客的主题
