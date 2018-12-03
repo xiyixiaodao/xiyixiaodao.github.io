@@ -1,5 +1,7 @@
 # 关于这个博客的主题
 
+查看我的博客主页，请![点击](https://xiyixiaodao.github.io/)
+
 本主题主要参考来源为![HyG](https://github.com/Gaohaoyang/gaohaoyang.github.io.git)，感谢博主。
 
 ## 目录
