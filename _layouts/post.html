@@ -75,7 +75,8 @@ layout: default
         <!-- Link Gitalk 的支持文件， -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
         <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-
+        <!--md5加密名称标签，保证唯一-->
+        <script src="{{ site.baseurl }}/js/md5.min.js"></script>
         <!--切记，初始化时，以管理员（自己）身份打开一篇博客，评论框内单击下-->
         <div id="gitalk-container"></div>
         <script type="text/javascript">
@@ -89,9 +90,8 @@ layout: default
                 //id不能是字符串，不要重复，否则一条评论将出现在每一篇文章
                 //默认为location.href会取到文章摘要，导致长度超限，出现errorError: Validation Failed.
                 //location.pathname相对合理，但是当文章标题（少数情况）过长时还是超限
-                //解决：md5加密成32位（一串无意义数字），或者直接截取为小于50的字符串
-                //0到49
-                id: (location.pathname).substring(0, 50),
+                //解决：md5加密成32位（一串无意义数字，保证唯一），或者直接截取为小于50的字符串（依旧不能保证唯一）
+                id: md5(location.href),
                 //评论框是否高光显示,true为显示，默认false
                 //distractionFreeMode:true,
 
