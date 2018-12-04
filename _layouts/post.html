@@ -64,7 +64,7 @@ layout: default
 
         {% include previousAndNext.html %}
 
-        <h2 id="comments" style="margin: 0px">添加评论</h2>
+        <h2 id="comments" style="font-weight: bold;margin: 0px">添加评论</h2>
         <small>(如果你想添加评论却无法实现，
                 可以直接<a href="https://github.com/xiyixiaodao/xiyixiaodao.github.io">访问</a>博客所属的项目)
         </small>
@@ -86,7 +86,8 @@ layout: default
                 owner: 'xiyixiaodao',
                 admin: ['xiyixiaodao'],
                 id: 'window.location.pathname',
-                distractionFreeMode: true,
+                //评论框是否高光显示
+                distractionFreeMode:false,
 
             });
             gitalk.render('gitalk-container');
