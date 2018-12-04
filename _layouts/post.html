@@ -89,7 +89,8 @@ layout: default
                 //默认为location.href会取到文章摘要，导致长度超限，出现errorError: Validation Failed.
                 //location.pathname相对合理，但是当文章标题（少数情况）过长时还是超限
                 //解决：md5加密成32位（一串无意义数字），或者直接截取为小于50的字符串
-                id: (location.pathname).split("/").pop().substring(0, 45),
+                //0到49
+                id: (location.pathname).substring(0, 50),
                 //评论框是否高光显示,true为显示，默认false
                 //distractionFreeMode:true,
 
