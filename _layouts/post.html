@@ -85,9 +85,9 @@ layout: default
                 repo: `xiyixiaodao.github.io`,
                 owner: 'xiyixiaodao',
                 admin: ['xiyixiaodao'],
-                id: 'location.pathname',
-                //评论框是否高光显示
-                distractionFreeMode:false,
+                //id: location.href, //不能是字符串，不要重复，否则一条评论将出现在每一篇文章
+                //评论框是否高光显示,true为显示，默认false
+                //distractionFreeMode:true,
 
             });
             gitalk.render('gitalk-container');
