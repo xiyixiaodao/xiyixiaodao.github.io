@@ -72,11 +72,12 @@ layout: default
         <!--原作者使用的disqus评论系统-->
         <!--{% include comments.html %}-->
 
-        <!-- Link Gitalk 的支持文件， -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-        <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-        <!--md5加密名称标签，保证唯一-->
-        <script src="{{ site.baseurl }}/js/md5.min.js"></script>
+        <!-- Link Gitalk 的支持文件，在head.html中引入了 -->
+        <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">-->
+        <!--<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>-->
+        <!--md5加密名称标签，保证唯一  ，在head.html中引入了-->
+        <!--<script src="{{ site.baseurl }}/js/md5.min.js"></script>-->
+
         <!--切记，初始化时，以管理员（自己）身份打开一篇博客，评论框内单击下-->
         <div id="gitalk-container"></div>
         <script type="text/javascript">
