@@ -5,7 +5,7 @@
 
 关于这个博客的主题
 
-本主题主要参考来源为[HyG](https://github.com/Gaohaoyang/gaohaoyang.github.io.git)，
+本主题主要参考了[HyG](https://github.com/Gaohaoyang/gaohaoyang.github.io.git)，
 评论使用了[gitalk](https://github.com/gitalk/gitalk)，感谢博主。
 
 ## 目录
