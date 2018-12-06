@@ -37,7 +37,7 @@ disqus_shortname: #https-xiyixiaodao-github-io
 # xxxxx字符串
 baidu_tongji_id: c1778ed34b45333296b970a55919e4d1
 # google 分析追踪id
- google_analytics_id: UA-130581031-1
+google_analytics_id: UA-130581031-1
 
 
 # Build settings
