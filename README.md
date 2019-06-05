@@ -6,7 +6,7 @@
 关于这个博客的主题
 
 本主题主要参考了[HyG](https://github.com/Gaohaoyang/gaohaoyang.github.io.git)，在此基础上添加了搜索功能。
-评论使用了[gitalk](https://github.com/gitalk/gitalk)，，感谢大家的无私奉献。
+评论使用了[gitalk](https://github.com/gitalk/gitalk)，感谢大家的无私奉献。
 
  
 
