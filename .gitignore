@@ -4,3 +4,4 @@ _site
 .vscode
 .idea
 .DS_Store
+!/page/0archives.html
