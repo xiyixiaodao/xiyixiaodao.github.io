@@ -11,19 +11,8 @@ type: page
 
 ## 工具
 
-* [CSS Generators -CSSREFLEX](http://www.cssreflex.com/css-generators/)
+* [git官方文档-中文版](https://git-scm.com/book/zh/v2)
 
-    CSS3 生成器
-
-
-* [图床 https://sm.ms/](https://sm.ms/)
-
-    上传图片获取链接，有 API 可用。
-
-
-- [在线正则表达式匹配](https://regex101.com/)
-
-- [http://regexr.com/](http://regexr.com/)
 
 
 ## 编程语言
@@ -35,14 +24,9 @@ type: page
 
 * [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
 
-## Chrome 插件
-- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
-
-    - Code tree for GitHub and GitLab
-
-* [Chrome扩展及应用开发 -图灵电子书](http://www.ituring.com.cn/minibook/950)
+## 浏览器插件
+- [Octotree 列表显示GitHub项目](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
 
-## 添加评论
 
-{% include comments.html %}
+
