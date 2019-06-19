@@ -70,7 +70,7 @@
         //解决：md5加密成32位（一串无意义数字，保证唯一），或者直接截取为小于50的字符串（依旧不能保证唯一）
         id: md5(location.href),
         //评论框是否高光显示,true为显示，默认false
-        //distractionFreeMode:true,
+        distractionFreeMode:true,
 
     });
     gitalk.render('gitalk-container');
