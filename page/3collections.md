@@ -30,6 +30,3 @@ type: page
 
 
 
-
-
-[https://v3.bootcss.com/css/]: https://v3.bootcss.com/css/
