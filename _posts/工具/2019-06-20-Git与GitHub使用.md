@@ -20,6 +20,7 @@ author: 希夷小道
 
 ## 二、Git入门
 强烈推荐Git官网的[教程](https://git-scm.com/book/zh/v2/)，有包含简体中文在内的各种语言翻译，并且可以下载pdf，epub，mobi形式的文档方便本地阅读。
+![使用Git的部分公司](.2019-06-20-Git与GitHub使用_images/eb19aec9.png)
 ### Git基本操作
 #### 安装与配置
 ##### 安装
