@@ -36,9 +36,10 @@ author: 希夷小道
  
  > Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows. 
  
- 大意是开源免费的版本控制工具Git，小巧便捷，适用于从小型到大型项目，已然超越了Subversion, CVS。   
+ 大意是开源免费的版本控制工具Git，小巧便捷，适用于从小型到大型项目，已然超越了Subversion, CVS等。   
  部分使用了Git的公司：  
 ![使用Git的部分公司](.2019-06-20-Git与GitHub使用_images/eb19aec9.png)
+
 ### Git基本操作
 #### 安装与配置
 ##### 安装
@@ -67,11 +68,16 @@ git config --list
 ```java
 git init
 ```
+在本地新建一个文件夹，进入文件夹，运行`git init`命令，这个文件夹之中的内容便交由git版本管理。之后新的文件或修改便可以通过add,commit的方式进行版本控制。
+
 
 ##### 远程克隆
 ```java
 git clong [url]
 ```
+url通过GitHub获取，一般有https和ssh版本，使用ssh需要配置ssh key。例如
+![](.2019-06-20-Git与GitHub使用_images/c53d732b.png)   
+
 #### 文件提交
 ##### add
 ##### commit
