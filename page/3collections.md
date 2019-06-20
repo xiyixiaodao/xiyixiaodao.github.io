@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 常用网站
+title: 收藏
 permalink: /collection/
 icon: bookmark
 type: page
