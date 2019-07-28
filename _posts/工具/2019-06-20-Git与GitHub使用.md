@@ -79,7 +79,7 @@ url通过GitHub获取，一般有https和ssh版本，使用ssh需要配置ssh ke
 ![](https://github.com/xiyixiaodao/xiyixiaodao.github.io/blob/master/_posts/工具/.2019-06-20-Git与GitHub使用_images/c53d732b.png?raw=true)   
 
 #### 文件提交
-提交文件可以分为三个步骤，新建或修改一个文件后依次需要add->commit->push，才能把文件交由版本控制并推送至远程服务器。
+提交文件可以分为三个步骤，新建或修改一个文件后依次需要add->commit->push，才能把文件交由版本控制并推送至远程服务器(如GitHub)。如果只需本地管理，仅需前两步。(在idea中，把add和commit作为一步，可以直接commit)。
 ##### add
 新建或修改一个文件后并不会直接被git接管，首先需要将文件添加到git的缓存区，这一步骤使用的是`git add`命令。 (以下所说的文件名都包含文件的扩展名)   
 - 添加单个文件  
@@ -105,7 +105,8 @@ git add .
 [GitHub入门官网](https://guides.github.com/activities/hello-world/)  
 GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-
+推送至GitHub  
+`git push -u origin master -f`
 
 
 [https://git-scm.com/book/zh/v2/]: https://git-scm.com/book/zh/v2/
