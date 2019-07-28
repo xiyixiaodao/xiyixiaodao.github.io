@@ -124,13 +124,19 @@ git checkout testing
 ```
 ##### 创建并切换
 git checkout -b testing // 新建testing分支，并切换到该分支上
-#### 合并分支
+##### 合并分支
 - 合并前，要切换到需要合并到的分支，如将testing合并到master
 ```java
 git checkout master        // 切换到master分支
 git merge testing           // 将testing修改合并到master 分支
 ```
 可能会遇到分支冲突，需要解决才能合并。
+
+##### 删除分支
+分支合并后，可能需要删除新建的分支，回到合并后的分支
+```java
+git branch -d testing
+```
 
 
 ## 三、GitHub
