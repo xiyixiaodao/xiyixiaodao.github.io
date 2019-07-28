@@ -95,18 +95,55 @@ git add file1 file2 file3
 git add .    
 ```
 ##### commit
+- 将缓存区中的文件，提交到git本地仓库
+```java
+git commit -m '备注信息'         // 带评论提交，用于说明提交内容、变更、作用等
+```
 ##### push
+- 将本地git版本控制的文件推送至GitHub
+```java
+git push origin master
+```
+##### pull
+- 将GitHub远程更新后拉取到本地
+```java
+git pull origin master
+```
 
 ### Git分支
+- 分支是什么？  
+简单说，从源代码某一节点开始，不同开发者“分道扬镳”，各自对当前版本进行开发，在某一时刻，进行合并，达到功能升级。所以重要的是分支合并，尤其是冲突的时候。分支及其合并也是GitHub的重要特色之一。
 #### 创建与切换分支
+##### 创建分支
+```java
+git branch testing
+```
+##### 切换分支
+```java
+git checkout testing
+```
+##### 创建并切换
+git checkout -b testing // 新建testing分支，并切换到该分支上
 #### 合并分支
+- 合并前，要切换到需要合并到的分支，如将testing合并到master
+```java
+git checkout master        // 切换到master分支
+git merge testing           // 将testing修改合并到master 分支
+```
+可能会遇到分支冲突，需要解决才能合并。
+
 
 ## 三、GitHub
 [GitHub入门官网](https://guides.github.com/activities/hello-world/)  
-GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+>GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.  
+>
+GitHub的操作单纯的截图展示没有太大意义，注册一个账号，摸索一下就可以入门。（值得一提的是，微软收购GitHub后，私有仓库也免费了，所以可以把自己觉得不好意思开源的低级项目也上传到GitHub私有仓库。）
 
-推送至GitHub  
-`git push -u origin master -f`
+GitHub还是很有意思的，初学者可以找不同水平的项目观摩，中级水平的可以去一些大的开源项目做贡献，高手就可以创建一些有意义的开源项目，改变世界了，哈哈。
+
+当然，最近看到一个消息，GitHub因制裁限制了某些地区的账号，虽然这个问题不适合在这里谈论，但是，心情挺复杂的。
 
 
-[https://git-scm.com/book/zh/v2/]: https://git-scm.com/book/zh/v2/
+## 总结
+关于git和GitHub其实基本功能使用起来很简单，真正深入了解核心概念和设计思想还是很重要的，再次强推一下官网上的免费书籍[Pro Git book](https://git-scm.com/book/zh/v2/)。有各种语言，各种格式提供下载，中文翻译也很不错，
+
